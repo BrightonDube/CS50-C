@@ -4,8 +4,9 @@ void countdown(int n);
 
 int main(void)
 {
+    const int n = 5;
     meow(4);
-    countdown(5);
+    countdown(n);
 }
 
 void meow(int x)
