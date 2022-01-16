@@ -1,5 +1,6 @@
 #include <cs50.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(void)
 {
@@ -7,4 +8,6 @@ int main(void)
 	printf("Hello %s\n", name);
 	string age = get_string("How old are you? ");
 	printf("You are %s years old \n", age);
+	puts("hello world");
+	return EXIT_SUCCESS;//not necessary!!!
 }
