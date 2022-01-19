@@ -65,7 +65,6 @@ int main(void)
             }
             else
             {
-
                 //if first number is 4 && checksum is correct && length is 13 or 16 -> then it's a visa 4003600000000014
                 if (position1 == 4 && result && (length == 13 || length == 16))
                 {
@@ -111,6 +110,5 @@ int get_length(long num)
 
 int get_sum(int current_sum, int current)
 {
-    current_sum += current;
-    return current_sum;
+    return current_sum += current;
 }
